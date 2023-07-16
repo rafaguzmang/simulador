@@ -1,0 +1,396 @@
+*{
+	padding: 0;
+	margin: 0;    
+    font-family: Calibri;
+
+}
+
+body {
+
+	background: #f2f2f2;
+}
+
+/*-----botones-------*/
+
+#btn_9{
+    position: absolute;
+    width: 20.5px;
+    top: 300px;
+    left:97.5px;
+}
+#btn_9:hover{
+    width: 22px;
+}
+#btn_8{
+    position: absolute;
+    width: 20.5px;
+    top: 300px;
+    left: 68.5px;
+}
+#btn_8:hover{
+    width: 22px;
+}
+#btn_7{
+    position: absolute;
+    width: 20.5px;
+    top: 300px;
+    left: 39.5px;
+}
+#btn_7:hover{
+    width: 22px;
+}
+#btn_6{
+    position: absolute;
+    width: 20.5px;
+    top: 276.7px;
+    left: 97.5px;
+}
+#btn_6:hover{
+    width: 22px;
+}
+#btn_5{
+    position: absolute;
+    width: 20.5px;
+   top: 276.7px;
+    left: 68.5px;
+}
+#btn_5:hover{
+    width: 22px;
+}
+#btn_4{
+    position: absolute;
+    width: 20.5px;
+    top: 276.7px;
+    left: 38.5px;
+}
+#btn_4:hover{
+    width: 22px;
+}
+#btn_3{
+    position: absolute;
+    width: 20.5px;
+     top: 252.7px;
+    left: 97.5px;
+}
+#btn_3:hover{
+    width: 22px;
+}
+#btn_2{
+    position: absolute;
+    width: 20.5px;
+     top: 252.7px;
+    left: 68.5px;
+}
+#btn_2:hover{
+    width: 22px;
+}
+#btn_1{
+    position: absolute;
+    width: 20.5px;
+    top: 252.7px;
+    left: 38.5px;
+    
+}
+#btn_1:hover{
+    width: 22px;
+}
+#btn_0{
+    position: absolute;
+    width: 20.5px;
+    top: 324.7px;
+    left: 68.5px;
+}
+#btn_0:hover{
+    width: 22px;
+}
+#btn_dash{
+    position: absolute;
+    width: 20.5px;
+    top: 324.7px;
+    left: 39.5px;
+}
+#btn_dash:hover{
+    width: 22px;
+}
+#btn_enter{
+    position: absolute;
+    width: 20.5px;
+   top: 324.7px;
+    left: 97.5px;
+}
+
+#btn_enter:hover{
+    width: 22px;
+}
+
+.btnexit{
+    position: absolute;
+    width: 26.5px;
+    height: 26px;
+    top: 75.7px;
+    left: 96.5px;
+    
+}
+.btnexit:hover{
+    width: 28.5px;
+}
+
+
+.btnArrowL{
+	position: absolute;
+    width: 32.5px;
+    /* height: 26px; */
+    top: 103.7px;
+    left: 29.5px;
+}
+
+.btnArrowL:hover{
+	width: 33.5px;
+}
+
+.btnArrowR{
+	position: absolute;
+    width: 32.5px;
+    /* height: 26px; */
+    top: 103.7px;
+    left: 91.5px;
+}
+
+.btnArrowR:hover{
+	width: 33.5px;
+}
+
+.btnArrowDown{
+	position: absolute;
+    width: 32.5px;
+    /* height: 26px; */
+    top: 137.7px;
+    left: 60.5px;
+}
+
+.btnArrowDown:hover{
+	width: 34px;
+}
+
+.btnArrowUp{
+	position: absolute;
+    width: 32.5px;
+    /* height: 26px; */
+    top: 76.7px;
+    left: 60.5px;
+}
+
+.btnArrowUp:hover{
+	width: 33.5px;
+}
+
+.btnSelect{
+	position: absolute;
+    width: 38.5px;
+    /* height: 26px; */
+    top: 101.7px;
+    left: 57.5px;
+}
+
+.btnSelect:hover{
+	width: 39.5px;
+}
+
+.btnOff{
+	position: absolute;
+    width: 20.5px;
+    /* height: 26px; */
+    top: 30.7px;
+    left: 90.5px;
+}
+
+.btnOff:hover{
+	width: 22px;
+}
+
+.btnOn{
+	position: absolute;
+    width: 20px;
+    /* height: 26px; */
+    top: 30.7px;
+    left: 42.5px
+}
+
+.btnOn:hover{	 
+	width: 21px;
+}
+#led_verde{
+    position: absolute;
+    width: 15px;
+    top: 34.7px;
+    left: 69.5px;
+}
+
+.escenario_control{
+	width: 147px;
+    height: 356px;
+    position: relative;
+    top: 261px;
+    left: 775px;
+    text-align: center;
+}
+
+ 
+
+
+/*---------------------------------------Pantallas-------------------------------------------------*/
+
+
+#texto{
+    font-family: Calibri;
+    position: absolute;
+    top: 252px;
+    left: 438px;
+    color: #f8fdff;
+    font-size: 18px;
+    opacity: .8;
+}
+
+
+#intensidadHD{    
+    position: absolute;
+    top: 277px;
+    left: 600px;
+    width: 50px;
+}
+#intensidadSD{    
+    position: absolute;
+    top: 277px;
+    left: 600px;
+    width: 50px;
+}
+
+#sintonizador{
+     font-family: Calibri;
+    position: absolute;
+    top: 298px;
+    left: 642px;
+    color: #768698;
+    font-size: 12px;
+    opacity: .8;
+}
+#sintonizador2{
+     font-family: Calibri;
+    position: absolute;
+    top: 292.5px;
+    left: 642px;
+    color: #768698;
+    font-size: 12px;
+    opacity: .8;
+}
+#sintonizador3{
+     font-family: Calibri;
+    position: absolute;
+    top: 272px;
+    left: 642px;
+    color: #768698;
+    font-size: 12px;
+    opacity: .8;
+}
+
+#selectorExt {
+    position: absolute;
+    top: 334px;
+    left: 259px;
+}
+
+#mosaico1000{
+    width: 99.5px;
+    height: 665px;
+    top: -195px;
+    left: 297px;
+}
+#mas1,#mas2,#mas3{
+    left: 217px;
+    opacity: .5;
+}
+
+#paises{
+     top: -206px;
+    left: -210px;
+    height: 511px;
+}
+#flechas{
+     top: 83px;
+    
+}
+
+#backgroud, #selector{
+    top: -207px;
+    left: -210px;
+}
+
+#region_pais{
+    position: absolute;
+    left: 430px;
+    top: 290px;    
+    width: 139px;
+    height: 24px;    
+    overflow: hidden;
+}
+
+#transHD{
+    position: absolute;
+    left: 280px;
+    top: 94px;
+    width: 328px;
+    height: 324px;
+}
+
+#transSD{
+    position: absolute;
+    left: 278px;
+    top: 87px;
+    width: 343px;
+}
+.pantallasgif{
+     position: absolute;
+    width: 549px;
+    top: 81px;
+    left: 220px;
+    height: 333px;
+}
+.pantallas{	
+    position: absolute;
+    width: 549px;
+    top: 81px;
+    left: 220px;
+    height: 333px;
+}
+
+.dateFH{
+    
+    position: absolute;
+    width: 549px;
+    top: 81px;
+    left: 220px;
+    height: 333px;
+}
+.scenarios{
+	position: absolute;
+}
+
+#hora{
+    position: absolute;
+    font-size: 11px;
+    color: white;
+    top: 96px;
+    left: 666px;
+    width: 100px;
+    opacity: .7;
+}
+#fecha{
+   position: absolute;
+    font-size: 9px;
+    color: #606767;
+    top: 111px;
+    left: 666px;
+    width: 35px;
+    opacity: .8;
+}
+
