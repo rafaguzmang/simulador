@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>IRD Virtual</title>
+	<link rel="stylesheet" type="text/css" href="menu_conf_conf.css">	
+	<script type="text/javascript" src="../../jquery-3.5.1.min.js"></script>	
+	<script type="text/javascript" src="menu_conf_conf.js"></script>
+</head>
+<body>
+
+	<img class="scenarios" id="Super_PLus_on" src="../scenarios/Super PLus2.jpg" height="658px">	
+	<img class="scenarios" id="Super_PLus_off" src="../scenarios/Super PLus2 off.png" height="658px">	
+	<div class="contenedor">
+
+		<div class="superplus">	
+
+		<!-- video cargar -->
+			<video  class="pantallas" id="cargar">			
+				<source src="../animaciones/cargaconf.mp4" type="video/mp4">
+			</video>			
+
+<!--      pantallas configuracion configuracion    -->
+			<img class="pantallas" id="configuraciones_cls" src="menu/configuracion/configuraciones_cls.png">			
+			<img class="pantallas" id="info_prueba" src="menu/configuracion/info_prueba.png">		
+			<img class="pantallas" id="pantalla" src="menu/configuracion/pantalla.png">		
+			<img class="pantallas" id="audio" src="menu/configuracion/audio.png">		
+			<img class="pantallas" id="confi_red" src="menu/configuracion/confi_red.png">		
+			<img class="pantallas" id="control" src="menu/configuracion/control.png">		
+			<img class="pantallas" id="ahorro" src="menu/configuracion/ahorro.png">			
+			<img class="pantallas" id="satelite" src="menu/configuracion/satelite.png">		
+			<img class="pantallas" id="multiroom" src="menu/configuracion/multiroom.png">		
+			<img class="pantallas" id="reiniciar" src="menu/configuracion/reiniciar.png">		
+			<img class="pantallas" id="finalizar" src="menu/configuracion/finalizar.png">		
+			<img class="pantallas" id="textoPantallas" src="menu/configuracion/texto.png">
+
+<!--      pantalla info y prueba   -->
+			<img class="pantallas" id="background" src="menu/configuracion/infoyprueba/background.png">			
+			<img class="pantallas" id="masinfo" src="menu/configuracion/infoyprueba/masinfo.png">			
+			<img class="pantallas" id="multicaja" src="menu/configuracion/infoyprueba/multicaja.png">	
+			<img class="pantallas" id="infomulticaja" src="menu/configuracion/infoyprueba/infomulticaja.png">	
+			<video  class="pantallas" id="infosistema">			
+				<source src="../animaciones/infosistema.mp4" type="video/mp4">
+			</video>
+			<img class="pantallas" id="aceptar_info" src="menu/configuracion/infoyprueba/aceptar_info.png">
+<!--      pantalla control   -->
+			<img class="pantallas" id="configurar_control_cls" src="menu/configuracion/control/configurar_control_cls.png">			
+			<img class="pantallas" id="copiar" src="menu/configuracion/control/copiar.png">			
+			<img class="pantallas" id="IR_RF" src="menu/configuracion/control/IR_RF.png">			
+
+<!--      pantalla ahorro de energia   -->
+			<img class="pantallas" id="ahorroenergia_cls" src="menu/configuracion/ahorro energia/ahorroenergia_cls.png">
+			<div id="caja_sino">
+				<img class="pantallas" id="seleccion" src="menu/configuracion/ahorro energia/seleccion.png">			
+				<img class="pantallas" id="sino" src="menu/configuracion/ahorro energia/sino.png">
+			</div>	
+
+<!--      pantalla satelite   -->
+			<img class="pantallas" id="ver_intensidad" src="menu/configuracion/satelite/ver_intensidad.png">			
+			<img class="pantallas" id="repetir_confi" src="menu/configuracion/satelite/repetir_confi.png">	
+
+<!--menú reiniciar -->
+			<img class="pantallas" id="reiniciar_cls" src="menu/configuracion/reiniciartodo/reiniciar_cls.png">		
+			<img class="pantallas" id="reiniciar_config" src="menu/configuracion/reiniciartodo/reiniciar_config.png">		
+			<img class="pantallas" id="reiniciar_select" src="menu/configuracion/reiniciartodo/reiniciar_select.png">		
+			<img class="pantallas" id="reiniciar_todo" src="menu/configuracion/reiniciartodo/reiniciar_todo.png">
+
+<!-- hora y fecha -->
+			<h2 class="info_menus" id="fecha"></h2>
+			<h2 class="info_menus" id="hora"></h2>
+			<h2 class="info_menus" id="nocanal"></h2>
+			<h2 class="info_menus" id="descanal">Mosaico SKY View</h2>
+
+		</div>
+		
+		<div class="escenario_control">
+			
+			<img class="control btn" id="control" src="../ControlSP/controlfte.png" width="155px"></img>
+			<img class="btnOn" id="btnOn" src="../ControlSP/on.png" ></img>
+			<img class="btnOff" id="btnOff" src="../ControlSP/off.png"></img>
+			<img class="btnSelect" id="btnSelect" src="../ControlSP/select.png" ></img>
+			<img class="btnArrowUp" id="btnArrowUp" src="../ControlSP/up_arrow.png" ></img>
+			<img class="btnArrowDown" id="btnArrowDown" src="../ControlSP/arrow_dwn.png" width="50px"></img>
+			<img class="btnArrowR" id="btnArrowR" src="../ControlSP/arrow_r.png" width="50px"></img>
+			<img class="btnArrowL" id="btnArrowL" src="../ControlSP/arrow_l.png" width="50px"></img>
+			<img class="btnexit" id="btnexit" src="../ControlSP/exit.png" width="50px"></img>
+			<img class="btninfo" id="btninfo" src="../ControlSP/info.png" width="50px"></img>
+			<img class="btnmenu" id="btnmenu" src="../ControlSP/menu.png" width="50px"></img>
+
+
+			<!--      Teclado  númerico    -->
+			<img class="tecladoNum" id="btn_9" src="../ControlSP/btn_9.png" width="50px"></img>
+			<img class="tecladoNum" id="btn_8" src="../ControlSP/btn_8.png" width="50px"></img>
+			<img class="tecladoNum" id="btn_7" src="../ControlSP/btn_7.png" width="50px"></img>
+			<img class="tecladoNum" id="btn_6" src="../ControlSP/btn_6.png" width="50px"></img>
+			<img class="tecladoNum" id="btn_5" src="../ControlSP/btn_5.png" width="50px"></img>
+			<img class="tecladoNum" id="btn_4" src="../ControlSP/btn_4.png" width="50px"></img>
+			<img class="tecladoNum" id="btn_3" src="../ControlSP/btn_3.png" width="50px"></img>
+			<img class="tecladoNum" id="btn_2" src="../ControlSP/btn_2.png" width="50px"></img>
+			<img class="tecladoNum" id="btn_1" src="../ControlSP/btn_1.png" width="50px"></img>
+			<img class="tecladoNum" id="btn_0" src="../ControlSP/btn_0.png" width="50px"></img>
+			<img class="tecladoNum" id="btn_dash" src="../ControlSP/btn_dash.png" width="50px"></img>
+			<img class="tecladoNum" id="btn_enter" src="../ControlSP/btn_enter.png" width="50px"></img>
+
+			<img class="led_verde" id="led_verde" src="../ControlSP/led_verde.png" width="50px"></img>
+
+			
+					
+
+
+
+		</div>
+
+	</div>
+
+</body>
+</html>
